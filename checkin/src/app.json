@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/mine/main",
+    "pages/news/main",
+    "pages/find/main"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#F0B27A",
+    "navigationBarTitleText": "",
+    "navigationStyle": "default"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#F0B27A",
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/images/bottomIcon/index.png",
+      "selectedIconPath": "static/images/bottomIcon/index_light.png"
+    }, {
+      "text": "发现",
+      "pagePath": "pages/find/main",
+      "iconPath": "static/images/bottomIcon/find.png",
+      "selectedIconPath": "static/images/bottomIcon/find_light.png"
+    },{
+      "text": "消息",
+      "pagePath": "pages/news/main",
+      "iconPath": "static/images/bottomIcon/news.png",
+      "selectedIconPath": "static/images/bottomIcon/news_light.png"
+    }, {
+      "text": "我的",
+      "pagePath": "pages/mine/main",
+      "iconPath": "static/images/bottomIcon/my.png",
+      "selectedIconPath": "static/images/bottomIcon/my_light.png"
+    }],
+    "position": "bottom"
+  }
+}
